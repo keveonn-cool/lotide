@@ -5,10 +5,10 @@ const assertEqual = function(actual, expected) {
   }
   else {
       console.log(" 🛑🛑🛑 Assertion failed : " +  actual +" !== "  +  expected);
-  }
+  }   
 
 };
 
-// TEST CODE
+// TEST CODE to check
 assertEqual("Lighthouse Labs", "Bootcamp");
 assertEqual(1, 1);
